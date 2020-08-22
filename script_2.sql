@@ -11,7 +11,7 @@
     ) 
    , calc_row as
     (
-    select temp_data.* , row_number() over(order by null) row_no from temp_data where  c1 IN ('2','3','X','Y','Z')   
+    select temp_data.* , row_number() over(order by null) row_no from temp_data where  c1 IN ('2','3')   
     ) 
    -- select * from calc_row;
    ,combined as
