@@ -36,4 +36,4 @@
     from sorted
         pivot ( min(value) for colID in (1 as c1 ,2 as c2 ,3 as c3)) 
 )    
-   select * from splitted ;
+   select * from splitted where rownum<=1 ;
