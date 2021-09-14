@@ -12,8 +12,3 @@ create table rec_events_test
  rec_event_src  varchar2(30)
 );
 
-create  table log
-(
-app_log_id number
-
-);
