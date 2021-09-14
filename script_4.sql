@@ -12,3 +12,8 @@ create table rec_events_test
  rec_event_src  varchar2(30)
 );
 
+create table t_log
+(
+t_id number
+);
+
